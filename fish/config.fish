@@ -26,5 +26,5 @@ function peco_select_history_order
 end
 
 function fish_user_key_bindings
-  bind /cr 'peco_select_history_order' # Ctrl + R
+  bind \cr 'peco_select_history_order' # Ctrl + R
 end
