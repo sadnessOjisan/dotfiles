@@ -6,6 +6,10 @@ call plug#end()
 
 set number
 
+" (){} hokan
+inoremap { {}<LEFT>
+inoremap ( ()<LEFT>
+
 " TextEdit might fail if hidden is not set.
 set hidden
 
