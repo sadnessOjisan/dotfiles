@@ -35,3 +35,13 @@ oh-my-fish/plugin-peco depends on peco.
 ```
 brew install peco
 ```
+
+### install Node.js
+
+jorgebucaran/nvm.fish is nvm wrapper.
+
+```
+nvm install v12
+```
+
+But this plugin cannot install default alias. You should exec use command each time you use.
