@@ -3,6 +3,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lambdalisue/fern.vim'
+Plug 'cocopon/iceberg.vim'
 call plug#end()
 
 set number
@@ -175,3 +176,8 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " fern
 nnoremap <C-n> :Fern . -reveal=% -drawer -toggle -width=40<CR>
+
+""""""""""""""""""""
+" color scheme
+""""""""""""""""""""
+colorscheme iceberg
