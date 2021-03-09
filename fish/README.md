@@ -29,7 +29,7 @@ fisher update
 ```
 
 ### install peco
-
+ 
 oh-my-fish/plugin-peco depends on peco.
 
 ```
@@ -44,4 +44,8 @@ jorgebucaran/nvm.fish is nvm wrapper.
 nvm install v12
 ```
 
-But this plugin cannot install default alias. You should exec use command each time you use.
+set Node default version
+
+```
+set --universal nvm_default_version v12
+```
