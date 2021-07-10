@@ -21,9 +21,25 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
+if plugin is insufficient
+
+```
+:PlugInstall
+```
+
+## coc
+
+go definition
+
+`gd`
+
+back
+
+`ctrl + o`
+
 ## TODO
 
-- [ ] LSP経由で補完
+- [ ] LSP 経由で補完
 - [ ] ファイラ
 - [ ] ファインダー
 - [ ] カッコ補完
