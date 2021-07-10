@@ -15,11 +15,11 @@ ojisan dotfiles
 
 ### vim
 
-#### filer
+#### filer(fern)
 
 |  cmd|  action|
 | ---- | ---- |
-|  ctrl + n |open file|
+|  ctrl + n |open file tree|
 | a options | do the action |
 
 #### lsp
