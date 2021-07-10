@@ -12,6 +12,15 @@ ojisan dotfiles
 |prefix + w | select session|
 
 ### vim
+#### move views
+
+| cmd | action |
+| --- | --- |
+| ctrl + w / hjkl | move panels
+| ctrl + w / q | delete panel
+| ctrl + w / c | create panel horizontal
+| ctrl + w / n | create panel vertical
+
 
 #### filer(fern)
 
