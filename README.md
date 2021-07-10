@@ -7,10 +7,8 @@ ojisan dotfiles
 
 |  cmd|  action|
 | ---- | ---- |
-|  ctrl + b|  prefix|
-|  prefix + %|  split vertical|
-| prefix + v | split horizontal|
-| prefix + c | new session|
+|  ctrl + s|  prefix|
+|  prefix + `|`|  split vertical|
 |prefix + w | select session|
 
 ### vim
