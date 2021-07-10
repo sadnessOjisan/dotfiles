@@ -7,19 +7,26 @@ ojisan dotfiles
 
 |  cmd|  action|
 | ---- | ---- |
-|  ctrl + b|  prefix|
-|  prefix + %|  split vertical|
-| prefix + v | split horizontal|
-| prefix + c | new session|
+|  ctrl + s|  prefix|
+|  prefix + `|`|  split vertical|
 |prefix + w | select session|
 
 ### vim
+#### move views
 
-#### filer
+| cmd | action |
+| --- | --- |
+| ctrl + w / hjkl | move panels
+| ctrl + w / q | delete panel
+| ctrl + w / c | create panel horizontal
+| ctrl + w / n | create panel vertical
+
+
+#### filer(fern)
 
 |  cmd|  action|
 | ---- | ---- |
-|  ctrl + n |open file|
+|  ctrl + n |open file tree|
 | a options | do the action |
 
 #### lsp
