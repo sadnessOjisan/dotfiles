@@ -1,0 +1,106 @@
+# dune build
+# OCAMLPARAM: unset
+# Workspace root: /Users/ideyuta/Documents/300_setting/dotfiles
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/n_/l78w33dd5332ctg4dqmsz1s00000gn/T/dune56f1f2.output 2> /dev/null
+# Auto-detected concurrency: 16
+# disable binary cache
+$ /Users/ideyuta/.opam/prj/bin/ocamlc.opt -config > /var/folders/n_/l78w33dd5332ctg4dqmsz1s00000gn/T/dune0367b7.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/Users/ideyuta/.opam/prj/lib/toplevel"
+#  ; ocaml_bin = External "/Users/ideyuta/.opam/prj/bin"
+#  ; ocaml = Ok External "/Users/ideyuta/.opam/prj/bin/ocaml"
+#  ; ocamlc = External "/Users/ideyuta/.opam/prj/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/ideyuta/.opam/prj/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/ideyuta/.opam/prj/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/Users/ideyuta/.opam/prj/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/ideyuta/Documents/300_setting/dotfiles/_build/default"
+#        ; "MANPATH" :
+#            "/Users/ideyuta/Documents/300_setting/dotfiles/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/ideyuta/Documents/300_setting/dotfiles/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/ideyuta/Documents/300_setting/dotfiles/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/ideyuta/Documents/300_setting/dotfiles/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/ideyuta/.opam/prj/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.09.1"
+#      ; standard_library_default = "/Users/ideyuta/.opam/prj/lib/ocaml"
+#      ; standard_library = "/Users/ideyuta/.opam/prj/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin19.2.0"
+#      ; target = "x86_64-apple-darwin19.2.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = false
+#      ; exec_magic_number = "Caml1999X026"
+#      ; cmi_magic_number = "Caml1999I026"
+#      ; cmo_magic_number = "Caml1999O026"
+#      ; cma_magic_number = "Caml1999A026"
+#      ; cmx_magic_number = "Caml1999Y026"
+#      ; cmxa_magic_number = "Caml1999Z026"
+#      ; ast_impl_magic_number = "Caml1999M026"
+#      ; ast_intf_magic_number = "Caml1999N026"
+#      ; cmxs_magic_number = "Caml1999D026"
+#      ; cmt_magic_number = "Caml1999T026"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
