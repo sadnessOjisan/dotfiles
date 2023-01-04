@@ -1,1 +1,5 @@
 # dotfiles
+
+```
+make all
+```

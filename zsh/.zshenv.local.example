@@ -1,0 +1,2 @@
+# Write local configure and copy it as .zshenv.local.
+# Then the configure is loaded in your local machine.
